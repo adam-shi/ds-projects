@@ -1,0 +1,16 @@
+# Fill this in.
+# Tests the set command.
+java -ea jump61.Main
+None
+===#1===
+size 2
+set 1 1 2 B
+dump
+set 1 1 1 R
+dump
+set 1 2 2 B
+set 2 1 2 B
+set 2 2 2 B
+dump
+quit
+===#2===

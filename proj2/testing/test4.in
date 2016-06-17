@@ -1,0 +1,6 @@
+# Tests EOF instead of quit.
+
+java -ea jump61.Main
+None
+===#1===
+===#2===

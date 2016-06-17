@@ -1,0 +1,16 @@
+# Tests a staff version vs. my version in the ultimate battle of AI willpower.
+staff-jump61
+java -ea jump61.Main
+===#1===
+manual blue
+auto red
+start
+%mr
+%ib...
+%e
+quit
+===#2===
+start
+%ir...
+%e
+quit

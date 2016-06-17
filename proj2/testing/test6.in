@@ -1,0 +1,20 @@
+# Tests that my version can beat the staff game under guaranteed win conditions.
+staff-jump61
+java -ea jump61.Main
+===#1===
+size 2
+manual blue
+auto red
+start
+%mr
+%ib...
+%eb
+quit
+===#2===
+manual red
+auto blue
+size 2
+start
+%ir...
+%eb
+quit
